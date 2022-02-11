@@ -1,5 +1,5 @@
 ---
-layout: jekyll-theme-hacker
+layout: page
 ---
 
 <html lang="en">
