@@ -42,114 +42,135 @@
                 <h2>dataset: alamgir12</h2>
             </div>
             <hr>
+
+            <!--
+                <td>
+                    <h5 style="text-align: center;"></h5>
+                    <div style="text-align: center;">
+                        <audio controls><source src="" type="audio/wav"></audio>
+                    </div>
+                </td>
+            -->
             <div>
-                <br>
-                    
-                
-                
-                <div style="text-align: center;">
-                    <h4>GlowTTS-330k + Griffin-Lim (0.56) (0.30)</h4>
-                </div>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_glow-330k_gl.wav" type="audio/wav">
-                    </audio>
-                </div>
-    
-                <br>
+                <table border="1">
+                    <tr> <!-- VITS -->
+                        <td>                        
+                        </td>
+                        <td>
+                            <h5 style="text-align: center;">VITS-200k (-) (0.34)</h5>
+                            <div style="text-align: center;">
+                                <audio controls><source src="wavs/al12_vits-200k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr> <!-- AlignTTS -->
+                        <td>
+                            <h5 style="text-align: center;">AlignTTS-240k + Griffin-Lim (-) (0.43)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_aligntts-240k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td>
+                            <h5 style="text-align: center;">AlignTTS-240k + MB-MelGAN-280k (-) (0.19)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_aligntts-240k_mbmel-280k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td>
+                            <h5 style="text-align: center;">AlignTTS-240k + Hifi-GAN-150k (-) (0.51)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_aligntts-240k_hifi-150k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5 style="text-align: center;">AlignTTS-240k + WaveRNN-300k (-) (21.8)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_align-240k_wavernn-300k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr> <!-- GlowTTS -->
+                        <td>
+                            <h5 style="text-align: center;">GlowTTS-330k + Griffin-Lim (0.56) (0.30)</h5>
+                            <div style="text-align: center;">
+                                <audio controls> <source src="wavs/al12_glow-330k_gl.wav" type="audio/wav"> </audio>
+                            </div>
+                        </td>
+                        <td>
+                            <h5 style="text-align: center;">GlowTTS-330k + MB-MelGAN-280k (-) (0.05)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_glow-330k_mbmel-280k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td>
+                            <h5 style="text-align: center;">GlowTTS-330k + Hifi-GAN-150k (0.11) (-)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_glow-330k_hifi-150k_gpu.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5 style="text-align: center;">GlowTTS-330k + WaveRNN-300k ()(49.9)</h5>
+                            <div style="text-align: center;">
+                                <audio controls><source src="wavs/al12_glow-330k_wavernn-300k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td>
 
-                <h4 style="text-align: center;">GlowTTS-330k + MB-MelGAN-280k (-) (0.05)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_glow-330k_mbmel-280k.wav" type="audio/wav">
-                    </audio>
-                </div>
-
-                <br>
-
-                <h4 style="text-align: center;">GlowTTS-330k + Hifi-GAN-150k (0.11) (-)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_glow-330k_hifi-150k_gpu.wav" type="audio/wav">
-                    </audio>
-                </div>
-
-                <br>
-
-                <h4 style="text-align: center;">AlignTTS-240k + Griffin-Lim (-) (0.43)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_aligntts-240k.wav" type="audio/wav">
-                    </audio>
-                </div>
-
-                <br>
-
-                <h4 style="text-align: center;">AlignTTS-240k + MB-MelGAN-280k (-) (0.19)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_aligntts-240k_mbmel-280k.wav" type="audio/wav">
-                    </audio>
-                </div>
-
-                <br>
-
-                <h4 style="text-align: center;">AlignTTS-240k + Hifi-GAN-150k (-) (0.51)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_aligntts-240k_hifi-150k.wav" type="audio/wav">
-                    </audio>
-                </div>
-
-                <br>
-
-                <h4 style="text-align: center;">VITS-200k (-) (0.34)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_vits-200k.wav" type="audio/wav">
-                    </audio>
-                </div>
-
-                <br>
-
-                <h4 style="text-align: center;">Tacotron2-DDC-230k + Griffin-Lim (-) (0.43)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_taco2ddc-230k_gl.wav" type="audio/wav">
-                    </audio>
-                </div>
-
-                <br>
-
-                <h4 style="text-align: center;">Tacotron2-DCA-70k + Griffin-Lim (-) (0.43)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_taco2dca_gl-70k.wav" type="audio/wav">
-                    </audio>
-                </div>
-
-                <br>
-
-                <h4 style="text-align: center;">Tacotron2-DDC-100k + Hifi-GAN-150k (-) (0.53)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_taco2ddc-100k_hifi-150k.wav" type="audio/wav">
-                    </audio>
-                </div>
-
-                <br>
-
-                <h4 style="text-align: center;">Tacotron2-DDC-100k + MB-MelGAN-280k (-) (0.21)</h4>
-                <div style="text-align:center;">
-                    <audio controls>
-                        <source src="wavs/al12_taco2ddc-100k_mbmel-280k.wav" type="audio/wav">
-                    </audio>
-                </div>
-    
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr> <!-- Taco2 -->
+                        <td>
+                            <h5 style="text-align: center;">Tacotron2-DDC-230k + Griffin-Lim (-) (0.43)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_taco2ddc-230k_gl.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td>
+                            <h5 style="text-align: center;">Tacotron2-DDC-100k + MB-MelGAN-280k (-) (0.21)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_taco2ddc-100k_mbmel-280k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td>
+                            <h5 style="text-align: center;">Tacotron2-DDC-100k + Hifi-GAN-150k (-) (0.53)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_taco2ddc-100k_hifi-150k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5 style="text-align: center;">Tacotron2-DDC-100k + WaveRNN-300k () (41.4)</h5>
+                            <div style="text-align: center;">
+                                <audio controls><source src="wavs/al12_taco2ddc-100k_wavernn-300k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5 style="text-align: center;">Tacotron2-DCA-70k + Griffin-Lim (-) (0.43)</h5>
+                            <div style="text-align:center;">
+                                <audio controls><source src="wavs/al12_taco2dca_gl-70k.wav" type="audio/wav"></audio>
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
             </div>
-    
-    
-        </div>
+            
+            
+            
     </div>
 </body>
 </html>
